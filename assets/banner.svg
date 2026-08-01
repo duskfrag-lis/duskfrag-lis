@@ -1,96 +1,105 @@
-<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05030d"/>
-      <stop offset="60%" stop-color="#0d0221"/>
-      <stop offset="100%" stop-color="#150a2e"/>
-    </linearGradient>
-    <linearGradient id="moonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#facc15"/>
-      <stop offset="45%" stop-color="#e879f9"/>
-      <stop offset="100%" stop-color="#6b21a8"/>
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#0a0014"/>
+      <stop offset="100%" stop-color="#150526"/>
     </linearGradient>
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#facc15"/>
-      <stop offset="50%" stop-color="#e879f9"/>
-      <stop offset="100%" stop-color="#c084fc"/>
+      <stop offset="0%" stop-color="#c9c9d8"/>
+      <stop offset="30%" stop-color="#e879f9"/>
+      <stop offset="65%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#facc15"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40,0 L0,0 L0,40" fill="none" stroke="#a855f7" stroke-width="0.5" opacity="0.15"/>
+    </pattern>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#150526" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.6"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="glowSoft" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="900" height="260" fill="url(#bgGrad)"/>
+  <rect width="900" height="280" fill="url(#bgGrad)"/>
+  <rect width="900" height="280" fill="url(#grid)"/>
 
-  <!-- stars -->
-  <g fill="#facc15" opacity="0.9">
-    <circle cx="60" cy="35" r="1.6"/>
-    <circle cx="130" cy="70" r="1.2"/>
-    <circle cx="45" cy="140" r="1.4"/>
-    <circle cx="180" cy="30" r="1.1"/>
-    <circle cx="760" cy="45" r="1.5"/>
-    <circle cx="820" cy="90" r="1.2"/>
-    <circle cx="850" cy="200" r="1.4"/>
-    <circle cx="700" cy="210" r="1.1"/>
-    <circle cx="600" cy="30" r="1.3"/>
-    <circle cx="500" cy="20" r="1.1"/>
-  </g>
-  <g fill="#e879f9" opacity="0.8">
-    <circle cx="100" cy="200" r="1.3"/>
-    <circle cx="230" cy="150" r="1.1"/>
-    <circle cx="780" cy="150" r="1.3"/>
-    <circle cx="650" cy="70" r="1.1"/>
-  </g>
-
-  <!-- circuit traces (left) -->
-  <g stroke="#67e8f9" stroke-width="1.4" fill="none" opacity="0.55">
-    <path d="M20,90 L70,90 L70,50 L110,50"/>
-    <path d="M20,180 L60,180 L60,220 L120,220"/>
-    <path d="M30,130 L90,130 L90,160 L150,160"/>
-  </g>
-  <g fill="#67e8f9" opacity="0.7">
-    <circle cx="110" cy="50" r="3"/>
-    <circle cx="70" cy="90" r="2.5"/>
-    <circle cx="120" cy="220" r="3"/>
-    <circle cx="150" cy="160" r="2.5"/>
+  <!-- starfield, each star twinkles independently -->
+  <g>
+    <circle cx="50" cy="40" r="1.6" fill="#e9d5ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite" begin="0s"/></circle>
+    <circle cx="120" cy="90" r="1.2" fill="#facc15"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="200" cy="30" r="1.4" fill="#f9a8d4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="80" cy="200" r="1.3" fill="#e9d5ff"><animate attributeName="opacity" values="1;0.3;1" dur="2.9s" repeatCount="indefinite" begin="1.1s"/></circle>
+    <circle cx="260" cy="220" r="1.5" fill="#facc15"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="30" cy="140" r="1.1" fill="#f9a8d4"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite" begin="1.5s"/></circle>
+    <circle cx="720" cy="35" r="1.5" fill="#e9d5ff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="790" cy="80" r="1.3" fill="#facc15"><animate attributeName="opacity" values="1;0.2;1" dur="3.2s" repeatCount="indefinite" begin="1s"/></circle>
+    <circle cx="850" cy="150" r="1.4" fill="#f9a8d4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="700" cy="210" r="1.2" fill="#e9d5ff"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite" begin="1.3s"/></circle>
+    <circle cx="860" cy="240" r="1.5" fill="#facc15"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="600" cy="20" r="1.1" fill="#f9a8d4"><animate attributeName="opacity" values="1;0.25;1" dur="2.3s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="450" cy="15" r="1.3" fill="#e9d5ff"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.3s" repeatCount="indefinite" begin="1.6s"/></circle>
+    <circle cx="500" cy="255" r="1.2" fill="#facc15"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="380" cy="250" r="1.1" fill="#f9a8d4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite" begin="1.2s"/></circle>
   </g>
 
-  <!-- circuit traces (right) -->
-  <g stroke="#c084fc" stroke-width="1.4" fill="none" opacity="0.55">
-    <path d="M880,80 L830,80 L830,40 L790,40"/>
-    <path d="M880,170 L840,170 L840,210 L780,210"/>
-    <path d="M870,120 L810,120 L810,150 L760,150"/>
+  <!-- circuit traces left, energy pulse flowing along the path -->
+  <g fill="none" stroke-width="1.4">
+    <path d="M10,60 L60,60 L60,25 L115,25" stroke="#e879f9" opacity="0.55">
+      <animate attributeName="stroke-dasharray" values="0,300;40,300;0,300" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M10,140 L50,140 L50,175 L100,175" stroke="#a855f7" opacity="0.55">
+      <animate attributeName="stroke-dasharray" values="0,300;40,300;0,300" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+    </path>
+    <path d="M15,220 L55,220 L55,250 L110,250" stroke="#facc15" opacity="0.5">
+      <animate attributeName="stroke-dasharray" values="0,300;40,300;0,300" dur="2.8s" repeatCount="indefinite" begin="1s"/>
+    </path>
   </g>
-  <g fill="#c084fc" opacity="0.7">
-    <circle cx="790" cy="40" r="3"/>
-    <circle cx="830" cy="80" r="2.5"/>
-    <circle cx="780" cy="210" r="3"/>
-    <circle cx="760" cy="150" r="2.5"/>
-  </g>
-
-  <!-- crescent moon -->
-  <g filter="url(#softGlow)">
-    <circle cx="130" cy="130" r="72" fill="url(#moonGrad)"/>
-    <circle cx="160" cy="118" r="66" fill="url(#bgGrad)"/>
+  <g fill="#e9d5ff" opacity="0.7">
+    <circle cx="115" cy="25" r="2.6"/><circle cx="100" cy="175" r="2.6"/><circle cx="110" cy="250" r="2.6"/>
   </g>
 
-  <!-- code bracket accent -->
-  <text x="118" y="142" font-family="Fira Code, monospace" font-size="30" fill="#0d0221" opacity="0.85">&lt;/&gt;</text>
+  <!-- circuit traces right, mirrored -->
+  <g fill="none" stroke-width="1.4">
+    <path d="M890,60 L840,60 L840,25 L785,25" stroke="#e879f9" opacity="0.55">
+      <animate attributeName="stroke-dasharray" values="0,300;40,300;0,300" dur="3.2s" repeatCount="indefinite" begin="0.3s"/>
+    </path>
+    <path d="M890,140 L850,140 L850,175 L800,175" stroke="#a855f7" opacity="0.55">
+      <animate attributeName="stroke-dasharray" values="0,300;40,300;0,300" dur="2.9s" repeatCount="indefinite" begin="0.8s"/>
+    </path>
+    <path d="M885,220 L845,220 L845,250 L790,250" stroke="#facc15" opacity="0.5">
+      <animate attributeName="stroke-dasharray" values="0,300;40,300;0,300" dur="3.4s" repeatCount="indefinite" begin="1.3s"/>
+    </path>
+  </g>
+  <g fill="#e9d5ff" opacity="0.7">
+    <circle cx="785" cy="25" r="2.6"/><circle cx="800" cy="175" r="2.6"/><circle cx="790" cy="250" r="2.6"/>
+  </g>
 
-  <!-- LIS -->
-  <text x="330" y="150" font-family="Fira Code, monospace" font-weight="700" font-size="92" fill="url(#textGrad)" filter="url(#glow)">LIS</text>
+  
+  <text x="150" y="105" font-family="Fira Code, monospace" font-size="13" fill="#a855f7" opacity="0.4">&lt;/&gt;</text>
+  <text x="740" y="105" font-family="Fira Code, monospace" font-size="13" fill="#f9a8d4" opacity="0.4">01</text>
+  <text x="760" y="200" font-family="Fira Code, monospace" font-size="13" fill="#facc15" opacity="0.35">{ }</text>
+  <text x="130" y="200" font-family="Fira Code, monospace" font-size="13" fill="#e9d5ff" opacity="0.35">10</text>
 
-  <!-- username -->
-  <text x="335" y="190" font-family="Fira Code, monospace" font-size="24" fill="#fef3c7" opacity="0.9">@duskfrag-lis</text>
+  
+  <text x="450" y="150" text-anchor="middle" font-family="Fira Code, monospace" font-weight="700" font-size="110" fill="url(#textGrad)" filter="url(#glow)">
+    LIS
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="2.4s" repeatCount="indefinite"/>
+  </text>
+  <text x="450" y="150" text-anchor="middle" font-family="Fira Code, monospace" font-weight="700" font-size="110" fill="url(#textGrad)">LIS</text>
+
+  
+  <line x1="340" y1="190" x2="388" y2="190" stroke="#facc15" stroke-width="1.5" opacity="0.7"/>
+  <text x="450" y="197" text-anchor="middle" font-family="Fira Code, monospace" font-size="24" fill="#e9d5ff" opacity="0.95">@duskfrag-lis</text>
+  <line x1="512" y1="190" x2="560" y2="190" stroke="#facc15" stroke-width="1.5" opacity="0.7"/>
+  
+
+  <rect width="900" height="280" fill="url(#vignette)"/>
 </svg>
