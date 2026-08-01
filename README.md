@@ -2,8 +2,6 @@
 
 <img src="./assets/banner.svg" width="100%" alt="header" />
 
-<img src="./assets/avatar.jpg" width="180" style="border-radius: 50%; border: 3px solid #c026d3;" alt="avatar" />
-
 ### Lidys Esther Jaraba Guerra
 
 *Desarrolladora Fullstack · Tecnología en Desarrollo de Software*
