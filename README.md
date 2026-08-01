@@ -69,6 +69,7 @@ ESTADO:          Construyendo portafolio · buscando internship
 **Herramientas & flujo**
 
 ![Git](https://img.shields.io/badge/Git-0d0d12?style=for-the-badge&logo=git&logoColor=F05032)
+![WSL](https://img.shields.io/badge/WSL-0d0d12?style=for-the-badge&logo=linux&logoColor=FCC624)
 ![GitHub](https://img.shields.io/badge/GitHub-0d0d12?style=for-the-badge&logo=github&logoColor=e0d9f0)
 ![VS Code](https://img.shields.io/badge/VS_Code-0d0d12?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
 ![Postman](https://img.shields.io/badge/Postman-0d0d12?style=for-the-badge&logo=postman&logoColor=FF6C37)
@@ -96,7 +97,7 @@ Plataforma fullstack para la operación completa de un restaurante: desde la tom
 - Flujo de reseñas restringido a clientes con pedidos de delivery completados
 - Desarrollo bajo Gitflow con commits convencionales en español
 
-→ *Repositorio próximamente público*
+→ [Ver repositorio](https://github.com/duskfrag-lis/restrogest)
 
 ---
 
@@ -125,6 +126,8 @@ Plataforma fullstack para la operación completa de un restaurante: desde la tom
 - Backend en Java con Spring Boot: gestión de clientes, cuentas y transacciones con arquitectura en capas
 - Documentación con Swagger UI y pruebas con Postman
 
+
+→ [Ver repositorio](https://github.com/duskfrag-lis/AppBank-Proyecto-Logica)
 
 ---
 
