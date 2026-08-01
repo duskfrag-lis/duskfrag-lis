@@ -6,11 +6,8 @@
 
 *Desarrolladora Fullstack · Tecnología en Desarrollo de Software*
 
-`🎧 electrónica` · `⚔️ combate` · `🐈‍⬛ gatos` · `🌙 code after dark`
-
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&width=500&lines=Frontend-leaning+fullstack+developer;Bugs+and+beats+in+the+dark." alt="typing" />
 
-<!-- Frase filosófica pendiente — reemplazar el texto del typing arriba cuando la tengas -->
 
 </div>
 
@@ -80,29 +77,6 @@ ESTADO:          Construyendo portafolio · buscando internship
 
 ---
 
-## ▸ ESTADÍSTICAS DE COMBATE
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=duskfrag-lis&show_icons=true&hide_border=true&bg_color=0d0d12&title_color=c084fc&icon_color=e879f9&text_color=e0d9f0&ring_color=c084fc" alt="github stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duskfrag-lis&layout=compact&hide_border=true&bg_color=0d0d12&title_color=c084fc&text_color=e0d9f0&langs_count=6" alt="top langs" />
-
-<img src="https://streak-stats.demolab.com/?user=duskfrag-lis&hide_border=true&background=0d0d12&ring=c084fc&fire=e879f9&currStreakLabel=e879f9&sideLabels=e0d9f0&currStreakNum=e0d9f0&sideNums=e0d9f0&dates=8b7d9b" alt="streak stats" />
-
-</div>
-
----
-
-## ▸ LOGROS DESBLOQUEADOS
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=duskfrag-lis&theme=dracula&no-frame=true&margin-w=8&row=1&column=6" alt="trophies" />
-
-</div>
-
----
-
 ## ▸ MISIONES ACTIVAS
 
 ### 🍽️ RestroGest
@@ -138,7 +112,6 @@ Plataforma fullstack para la operación completa de un restaurante: desde la tom
 - Desarrollo de controllers y mappers REST para todos los módulos
 - Autenticación completa integrada (login, logout, cookies HttpOnly)
 
-<!-- Pendiente: confirmar con Miguel la URL final del repo reestructurado (monorepo) -->
 
 ---
 
@@ -152,7 +125,6 @@ Plataforma fullstack para la operación completa de un restaurante: desde la tom
 - Backend en Java con Spring Boot: gestión de clientes, cuentas y transacciones con arquitectura en capas
 - Documentación con Swagger UI y pruebas con Postman
 
-<!-- Pendiente: confirmar URL del repo transferido en duskfrag-lis -->
 
 ---
 
