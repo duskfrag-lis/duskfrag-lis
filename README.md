@@ -4,9 +4,9 @@
 
 ### Lidys Esther Jaraba Guerra
 
-*Desarrolladora Fullstack · Tecnología en Desarrollo de Software*
+**Desarrolladora de software en formación · Full Stack con enfoque Frontend**
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&width=500&lines=Frontend-leaning+fullstack+developer;Bugs+and+beats+in+the+dark." alt="typing" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&width=500&lines=Frontend-leaning+fullstack+developer;TypeScript+%C2%B7+React+%C2%B7+Angular+%C2%B7+Spring+Boot;Bugs+and+beats+in+the+dark." alt="typing" />
 
 
 </div>
@@ -17,24 +17,27 @@
 
 ```
 NOMBRE:          Lidys Esther Jaraba Guerra
-ROL:             Desarrolladora Fullstack (especialización Frontend)
+ROL:             Desarrolladora de software en formación
+                 (Full Stack, enfoque Frontend)
 CLASE:           Junior — en formación activa
 UBICACIÓN:       Medellín, Colombia
 
 FORMACIÓN:       Tecnología en Desarrollo de Software
-                 Universidad Católica Luis Amigó — 4to semestre (2025–)
+                 Universidad Católica Luis Amigó — 4.º semestre (2025–)
 
-IDIOMAS:         Español (nativo) · Inglés B1 (lectura y documentación)
+IDIOMAS:         Español (nativo) · Inglés B1 (lectura de documentación técnica)
 
-DISPONIBILIDAD:  Contrato de aprendizaje desde agosto 2026
-                 (18 meses — cubre las 3 etapas de práctica)
+DISPONIBILIDAD:  Práctica profesional — tiempo completo
+                 Solicitud aprobada por la universidad (periodo 2026-02)
 
-ESTADO:          Construyendo portafolio · buscando internship
+APRENDIENDO:     Bases de datos NoSQL · Despliegue de aplicaciones
+
+ESTADO:          Construyendo portafolio · buscando práctica profesional
 ```
 
 **Perks pasivos**
 
-`🧠 Pensamiento lógico` `🔍 Resolución de problemas` `🎯 Atención al detalle` `📚 Aprendizaje autónomo` `🤝 Trabajo en equipo` `💬 Comunicación efectiva`
+`🧠 Pensamiento lógico` `🔍 Resolución de problemas` `🎯 Atención al detalle` `📚 Aprendizaje autónomo` `🤝 Trabajo en equipo`
 
 ---
 
@@ -43,11 +46,9 @@ ESTADO:          Construyendo portafolio · buscando internship
 **Frontend**
 
 ![React](https://img.shields.io/badge/React-0d0d12?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d0d12?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![Angular](https://img.shields.io/badge/Angular-0d0d12?style=for-the-badge&logo=angular&logoColor=DD0031)
 ![Vite](https://img.shields.io/badge/Vite-0d0d12?style=for-the-badge&logo=vite&logoColor=B8A1FF)
 ![React Router](https://img.shields.io/badge/React_Router_DOM-0d0d12?style=for-the-badge&logo=reactrouter&logoColor=CA4245)
-![Axios](https://img.shields.io/badge/Axios-0d0d12?style=for-the-badge&logo=axios&logoColor=e879f9)
-![Recharts](https://img.shields.io/badge/Recharts-0d0d12?style=for-the-badge&logo=chartdotjs&logoColor=c084fc)
 ![HTML5](https://img.shields.io/badge/HTML5-0d0d12?style=for-the-badge&logo=html5&logoColor=E34F26)
 ![CSS3](https://img.shields.io/badge/CSS3-0d0d12?style=for-the-badge&logo=css3&logoColor=1572B6)
 
@@ -55,9 +56,7 @@ ESTADO:          Construyendo portafolio · buscando internship
 
 ![Node.js](https://img.shields.io/badge/Node.js-0d0d12?style=for-the-badge&logo=node.js&logoColor=339933)
 ![Express](https://img.shields.io/badge/Express-0d0d12?style=for-the-badge&logo=express&logoColor=e0d9f0)
-![Java](https://img.shields.io/badge/Java-0d0d12?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-0d0d12?style=for-the-badge&logo=springboot&logoColor=6DB33F)
-![Spring Security](https://img.shields.io/badge/Spring_Security-0d0d12?style=for-the-badge&logo=springsecurity&logoColor=6DB33F)
 ![Swagger](https://img.shields.io/badge/Swagger_/_OpenAPI-0d0d12?style=for-the-badge&logo=swagger&logoColor=85EA2D)
 ![Maven](https://img.shields.io/badge/Maven-0d0d12?style=for-the-badge&logo=apachemaven&logoColor=C71A36)
 
@@ -65,54 +64,71 @@ ESTADO:          Construyendo portafolio · buscando internship
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d12?style=for-the-badge&logo=postgresql&logoColor=4169E1)
 ![MySQL](https://img.shields.io/badge/MySQL-0d0d12?style=for-the-badge&logo=mysql&logoColor=4479A1)
+![Prisma](https://img.shields.io/badge/Prisma-0d0d12?style=for-the-badge&logo=prisma&logoColor=e0d9f0)
 
 **Herramientas & flujo**
 
 ![Git](https://img.shields.io/badge/Git-0d0d12?style=for-the-badge&logo=git&logoColor=F05032)
-![WSL](https://img.shields.io/badge/WSL-0d0d12?style=for-the-badge&logo=linux&logoColor=FCC624)
 ![GitHub](https://img.shields.io/badge/GitHub-0d0d12?style=for-the-badge&logo=github&logoColor=e0d9f0)
-![VS Code](https://img.shields.io/badge/VS_Code-0d0d12?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
 ![Postman](https://img.shields.io/badge/Postman-0d0d12?style=for-the-badge&logo=postman&logoColor=FF6C37)
 ![Docker](https://img.shields.io/badge/Docker_(básico)-0d0d12?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![GitFlow](https://img.shields.io/badge/GitFlow_+_Conventional_Commits-0d0d12?style=for-the-badge&logo=git&logoColor=c084fc)
 
 ---
 
-## ▸ MISIONES ACTIVAS
+## ▸ MISIONES
 
 ### 🍽️ RestroGest
-**Sistema integral de gestión para restaurantes**
+**Sistema de gestión para restaurantes**
 
-*Proyecto personal (fullstack) · En desarrollo activo · 2026*
+*Proyecto personal (fullstack) · 2026 · En pausa*
 
-Plataforma fullstack para la operación completa de un restaurante: desde la toma de pedidos y gestión de mesas hasta cocina, delivery, reservas, inventario, pagos y reportes.
+Plataforma para la operación de un restaurante: mesas, pedidos, cocina, inventario y atención al cliente, con vista pública.
 
-`Node.js` `Express` `TypeScript` `PostgreSQL` `React 19` `Vite`
+`Node.js` `Express` `TypeScript` `PostgreSQL` `React` `Vite` `Docker`
 
-- Backend con arquitectura estricta de 4 capas por módulo (routes → controller → service → repository), 15 módulos: auth, users, perfil, menú, mesas, cocina, pedidos, delivery, reservas, inventario, pagos, reseñas, noticias, reportes e información del restaurante
-- PostgreSQL con SQL puro (sin ORM) vía `pg`, migraciones versionadas con runner propio
-- Autenticación completa desde cero: JWT, verificación de email, recuperación de contraseña, OAuth con Google, bloqueo de cuenta por intentos fallidos
-- Frontend con arquitectura modular (`modules/`, `core/`, `shared/`, `layouts/`), gestión de sesión normalizada y separada de datos de perfil
-- Pasarela de pagos Wompi integrada (confirmación por webhook + fallback manual)
-- Flujo de reseñas restringido a clientes con pedidos de delivery completados
-- Desarrollo bajo Gitflow con commits convencionales en español
+- Frontend y backend desarrollados de forma independiente
+- Backend con arquitectura de 4 capas (routes → controller → service → repository), SQL sin ORM sobre PostgreSQL y migraciones versionadas
+- Módulos: usuarios, autenticación, perfiles, mesas (vista de meseros), cocina, pedidos, inventario, reseñas, noticias y landing pública
+- Autenticación con JWT, hash de contraseñas con bcrypt y permisos por rol
+- Flujo de pagos **simulado** con la pasarela Wompi (sin conexión a producción)
+- Entorno de desarrollo con Docker · Gitflow con commits convencionales
 
 → [Ver repositorio](https://github.com/duskfrag-lis/restrogest)
+
+---
+
+### 🤝 Confiance
+**Marketplace de servicios locales**
+
+*Proyecto académico en equipo · Universidad Católica Luis Amigó · 2026–Presente*
+
+Plataforma que conecta clientes con prestadores para publicar, buscar y contratar servicios.
+
+`Angular` `NestJS` `PostgreSQL` `Prisma` `Docker Compose`
+
+**Mi parte:**
+- Vistas y componentes del frontend en Angular
+- Modelo de datos con Prisma y migraciones de PostgreSQL
+- Configuración de parte del entorno local con Docker Compose
+
+→ [Ver repositorio](https://github.com/duskfrag-lis/Confiance)
 
 ---
 
 ### 💰 Adulto Funcional
 **App de organización personal — finanzas, agenda y gestor de contraseñas**
 
-*Proyecto colaborativo (equipo de 5) · Universidad Católica Luis Amigó · 2026–Presente · En desarrollo activo*
+*Proyecto académico en equipo (5 personas) · Universidad Católica Luis Amigó · 2026*
 
-`React` `TypeScript` `Vite` `Spring Boot` `Context API`
+`React` `TypeScript` `Vite` `Java` `Spring Boot`
 
-- Frontend en React, TypeScript y Vite: arquitectura de componentes, rutas protegidas y Context API
-- Módulos de gestor de contraseñas, finanzas, compromisos y dashboard responsivo
-- Desarrollo de controllers y mappers REST para todos los módulos
-- Autenticación completa integrada (login, logout, cookies HttpOnly)
+**Mi parte:**
+- Diseño y desarrollo del frontend web: rutas protegidas, sesión con Context API y módulos de gestor de contraseñas, finanzas, compromisos y dashboard
+- Apoyo en el backend con Spring Boot: controllers y mappers REST, y hash de contraseñas con Argon2
+- Integración del inicio y cierre de sesión del cliente web con el backend mediante cookies HttpOnly
 
+→ [Ver repositorio](https://github.com/duskfrag-lis/Adulto-Funcional)
 
 ---
 
@@ -133,7 +149,7 @@ Plataforma fullstack para la operación completa de un restaurante: desde la tom
 
 ## ▸ CONTACTO
 
-📧 lidysjaraba9@gmail.com
+📧 lidysjaraba9@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/lidys-jaraba-048374426/)
 
 <div align="center">
 
